@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso das Funções</title>
+    <script src="funcoes.js"></script>
+</head>
+<body>
+    Forneça uma frase: <input type="text" id="texto">
+    <input type="button" value="Inverter"
+    onclick="document.getElementById('saida').innerHTML =
+    inverter(document.getElementById('texto').value)"> <br><br>
+    <input type="button" value="InverterSemVogais"
+    onclick="document.getElementById('saida').innerHTML =
+    inverterSemVogais(document.getElementById('texto').value)"> <br><br>
+
+    <br><br>
+    Numero gerado: <input type="text" id="numero">
+    <input type="button" value="Gerar"
+    onclick="document.getElementById('numero').value = valor()">
+<p id="saida"></p>
+
+</body>
+</html>
