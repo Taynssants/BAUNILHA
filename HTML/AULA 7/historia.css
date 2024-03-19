@@ -1,0 +1,28 @@
+blockquote {
+    float: right;
+    text-align: justify;
+    font-size: 1.5rem;
+    width: 40rem;
+    height: 40rem;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 25rem;
+}
+
+blockquote::first-letter {
+    font-size: 4rem;
+    color: red;
+}
+
+img {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 30%;
+    height: 50rem;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+}

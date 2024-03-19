@@ -1,0 +1,18 @@
+body {
+    background-color: blue; /* plano de fundo */
+    color: white; /* cor da fonte */
+    font-size: 48px; /* tamanho da fonte */
+}
+
+.especial {
+    color: black;
+}
+
+#div1 {
+    background-color: green;
+    text-align: center;
+}
+
+#div2 {
+    background-color: red;
+}

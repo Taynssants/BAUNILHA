@@ -1,0 +1,21 @@
+img {
+    width: 50px;
+}
+
+.visitante {
+    float: right;
+}
+
+.vencedor {
+    color: blue;
+    text-align: center;
+}
+
+.perdedor {
+    color: red;
+    text-align: center;
+}
+
+.atacante {
+    text-align: right;
+}

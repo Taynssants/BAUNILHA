@@ -1,0 +1,120 @@
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+h1::first-letter{
+    font-size:5rem;
+    color: purple;
+}
+
+blockquote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    width: 60%;
+    text-align: justify;
+}
+
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ h3{
+    font-size: 3rem;
+    color: white;
+ }
+
+ h2{
+    font-size: 2rem;
+    color: white;
+ }
+
+.card {
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 10px 10px 0 0;
+    overflow:hidden;
+}
+
+.card .img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+    padding: 2px 16px;
+    background-color: rgb(238, 183, 117);
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .col-xg-1 {width: 8.33%;}
+    .col-xg-2 {width: 16.66%;}
+    .col-xg-3 {width: 25%;}
+    .col-xg-4 {width: 33.33%;}
+    .col-xg-5 {width: 41.66%;}
+    .col-xg-6 {width: 50%;}
+    .col-xg-7 {width: 58.33%;}
+    .col-xg-8 {width: 66.66%;}
+    .col-xg-9 {width: 75%;}
+    .col-xg-10 {width: 83.33%;}
+    .col-xg-11 {width: 91.66%;}
+    .col-xg-12 {width: 100%;}
+    
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+    
+}
+
+@media screen and (max-width: 600px) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+    
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: black;
+}
+
+#mapa{
+    float: right;
+}

@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+blockquote {
+    width: 80%;
+}
+
+blockquote::first-letter {
+    font-size: 3rem;
+    color: red;
+}
+
+
+main {
+    margin-top: 5rem;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30rem;
+}
+
+#Sou table {
+    width: 100%;
+}
+
+#Sou tbody tr td {
+    text-align: right;
+}
+
+#Sou tbody tr td:first-child {
+    text-align: left;
+}
+
+/* impar = odd   par = even */
+#Sou tbody tr:nth-child(odd) {
+    background-color: rgb(233, 230, 230);
+}
+
+#Sou tr td, #Sou tr th  {
+    padding: 1rem;
+}
+
+#Sou h1::before {
+    content: "T";
+    font-size: 3rem;
+    color: blue;
+}
+
+/* Colocando porcentagem automaticamente via css usando after, isto é, depois de algo */
+.porcentagem::after {
+    content: '%';
+}
+

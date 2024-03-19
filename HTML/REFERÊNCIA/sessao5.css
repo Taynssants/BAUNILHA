@@ -1,0 +1,56 @@
+@keyframes example {
+    0%   {
+      background: url("https://blog.houer.com.br/wp-content/uploads/2018/09/233368-como-as-concessoes-e-ppps-favorecem-a-administracao-dos-estadios-de-futebol.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      float: left;
+  }
+    33%  {
+      background: url("https://s2-casavogue.glbimg.com/LRhIBC_s9yQnCOoNrCoacW9Vspk=/0x0:852x568/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_d72fd4bf0af74c0c89d27a5a226dbbf8/internal_photos/bs/2022/N/l/crJEcwRl2UKq5r5jOm1Q/populous-hastings-geodis-stadium-nashville-dezeen-2364-col-17-852x568.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+    66%  {
+      background: url("https://cdn.pixabay.com/photo/2016/11/29/02/05/audience-1866738_1280.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+    100% {
+      background: url("https://images.adsttc.com/media/images/5f3e/5bb1/b357/6546/6300/020e/medium_jpg/6_ZHA_Xi%E2%80%99an_International_Football_Centre_Render_by_Negativ.jpg?1597922192");
+      background-repeat: no-repeat;
+      background-size:cover;
+      }
+  }
+  
+  #carousel {
+    text-align: center;
+    width: 40%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: example 15s infinite;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+#button {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 1rem;
+    width: 20rem;
+}
+
+#Tay table{
+  width: 30%;
+}
+
+#Tay thead{
+  text-align: justify;
+  margin-right: 2rem;
+}
+
+#Tay tbody{
+  text-align: left;
+}
